@@ -1,0 +1,194 @@
+
+
+📚 Church Management System (CMS) Overview
+
+The Church Management System (CMS) is a complete web-based application built to modernize and simplify how churches manage their daily operations. It centralizes member records, events, offerings, sermons, and communication workflows under one unified platform. Designed with a clean and responsive UI, the system ensures smooth usage for church administrators, pastors, and members. The application uses PHP for backend logic, PostgreSQL as the main database, and supports secure authentication, email notifications, and photo uploads.
+
+✨ Key Features
+🔐 Secure User Authentication
+
+Login and registration system
+
+Password hashing for enhanced security
+
+Role-based access control (Admin, Pastor, Member)
+
+👥 Member Management
+
+Add, update, delete church members
+
+Upload and store member photos
+
+View detailed member profiles
+
+Track membership status
+
+📅 Event Management
+
+Create and manage church events
+
+Event descriptions, schedules, and assigned organizers
+
+Public event visibility for members
+
+💸 Offering & Donation Management
+
+Register offerings, tithes, and donations
+
+Track amounts, dates, and member contributors
+
+Generate offering history for review
+
+🎙️ Sermon Management
+
+Add new sermons (title, speaker, date, notes)
+
+View previous sermons
+
+Upload sermon media (optional)
+
+✉️ Email Notification System
+
+Send announcement emails to members
+
+Automatic emails on specific actions
+
+Powered by PHPMailer
+
+📊 Admin Dashboard
+
+A clean, modern dashboard with:
+
+Total members
+
+Upcoming events
+
+Recent offerings
+
+Quick shortcuts for main modules
+
+🎨 User Interface Design
+
+Responsive design (mobile + desktop)
+
+Indigo blue color theme
+
+Clean forms, tables, and navigations
+
+Smooth transitions and modern card layout
+
+📷 Screenshots
+
+<img width="1919" height="886" alt="Screenshot 2025-12-01 130936" src="https://github.com/user-attachments/assets/8b83b13d-e709-4960-81cf-874cc58168d3" />
+
+<img width="1908" height="951" alt="Screenshot 2025-12-01 131003" src="https://github.com/user-attachments/assets/7a3c9dc3-ecf4-42a1-871b-7757b2b8ea1e" />
+
+<img width="1919" height="944" alt="Screenshot 2025-12-01 131021" src="https://github.com/user-attachments/assets/85b9c266-988d-4a41-ade7-83c82666081a" />
+
+
+
+💻 Technology Stack
+
+Frontend: HTML, CSS, JavaScript
+Backend: PHP 8+
+Database: PostgreSQL
+Email Service: PHPMailer (SMTP)
+Architecture: MVC Pattern
+Security: Password hashing, input validation
+Tools: Composer, PDO, Environment variables (.env)
+
+🚀 Getting Started
+✔️ Prerequisites
+
+PHP 8 or higher
+
+PostgreSQL server (local or remote)
+
+Composer installed
+
+VS Code or any PHP-compatible IDE
+
+SMTP-enabled email account (Gmail recommended)
+
+🛠️ Installation
+1. Clone the repository
+git clone https://github.com/yourusername/church-management-system.git
+cd church-management-system
+
+2. Install dependencies
+composer install
+
+3. Configure the environment
+
+Create a .env file:
+
+DB_HOST=localhost
+DB_NAME=church_db
+DB_USER=your_user
+DB_PASS=your_password
+
+SMTP_HOST=smtp.gmail.com
+SMTP_USER=your_email
+SMTP_PASS=your_email_password
+SMTP_PORT=587
+SMTP_SECURE=tls
+
+4. Import the database tables
+psql -U your_user -d church_db -f migrations/create_tables.sql
+
+5. Run the application locally
+php -S localhost:8000
+
+
+Open in browser:
+
+http://localhost:8000
+
+⚙️ Usage
+
+Access the login page
+
+Create a new account or log in using your credentials
+
+Admin can manage:
+
+Members
+
+Events
+
+Offerings
+
+Sermons
+
+Email notifications
+
+Dashboard analytics
+
+Pastors can publish sermons and send announcements
+
+Members can view events, sermons, and offerings
+
+🤝 Contributing
+
+Contributions are welcome!
+Feel free to:
+
+Open issues
+
+Submit pull requests
+
+Suggest improvements
+
+Add new features
+
+📜 License
+
+This project is licensed under the MIT License.
+
+📧 Contact
+
+For questions or feedback, contact:
+
+Name: Stann Ayamine Ikam Gaba
+GitHub: Stann-25873
+Project: Church Management System – 2025
