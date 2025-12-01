@@ -1,0 +1,562 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Admin",
+      "last_name": "User",
+      "email": "admin@church.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "admin",
+      "created_at": "2025-01-15 10:00:00"
+    },
+    {
+      "id": 2,
+      "first_name": "Pastor",
+      "last_name": "John",
+      "email": "pastor.john@church.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "pastor",
+      "created_at": "2025-02-10 09:00:00"
+    },
+    {
+      "id": 3,
+      "first_name": "Pastor",
+      "last_name": "Michael",
+      "email": "pastor.michael@church.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "pastor",
+      "created_at": "2025-03-12 08:30:00"
+    },
+    {
+      "id": 4,
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-04-01 14:20:00"
+    },
+    {
+      "id": 5,
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-04-05 11:15:00"
+    },
+    {
+      "id": 6,
+      "first_name": "Robert",
+      "last_name": "Johnson",
+      "email": "robert.j@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-04-08 16:45:00"
+    },
+    {
+      "id": 7,
+      "first_name": "Sarah",
+      "last_name": "Williams",
+      "email": "sarah.w@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-04-12 09:30:00"
+    },
+    {
+      "id": 8,
+      "first_name": "David",
+      "last_name": "Brown",
+      "email": "david.brown@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-04-15 13:00:00"
+    },
+    {
+      "id": 9,
+      "first_name": "Emily",
+      "last_name": "Davis",
+      "email": "emily.d@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-04-18 10:20:00"
+    },
+    {
+      "id": 10,
+      "first_name": "Christopher",
+      "last_name": "Martinez",
+      "email": "chris.m@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-05-01 07:45:00"
+    },
+    {
+      "id": 11,
+      "first_name": "Amanda",
+      "last_name": "Taylor",
+      "email": "amanda.t@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-05-05 15:30:00"
+    },
+    {
+      "id": 12,
+      "first_name": "James",
+      "last_name": "Anderson",
+      "email": "james.a@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-05-10 12:15:00"
+    },
+    {
+      "id": 13,
+      "first_name": "Michelle",
+      "last_name": "Thomas",
+      "email": "michelle.t@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-05-15 11:00:00"
+    },
+    {
+      "id": 14,
+      "first_name": "Daniel",
+      "last_name": "Jackson",
+      "email": "daniel.j@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-05-20 14:25:00"
+    },
+    {
+      "id": 15,
+      "first_name": "Jennifer",
+      "last_name": "White",
+      "email": "jennifer.w@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-05-25 09:40:00"
+    },
+    {
+      "id": 16,
+      "first_name": "Matthew",
+      "last_name": "Harris",
+      "email": "matthew.h@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-06-01 10:10:00"
+    },
+    {
+      "id": 17,
+      "first_name": "Lisa",
+      "last_name": "Martin",
+      "email": "lisa.m@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-06-05 13:55:00"
+    },
+    {
+      "id": 18,
+      "first_name": "William",
+      "last_name": "Thompson",
+      "email": "william.t@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-06-10 08:20:00"
+    },
+    {
+      "id": 19,
+      "first_name": "Karen",
+      "last_name": "Garcia",
+      "email": "karen.g@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-06-15 16:05:00"
+    },
+    {
+      "id": 20,
+      "first_name": "Joseph",
+      "last_name": "Rodriguez",
+      "email": "joseph.r@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-06-20 12:35:00"
+    },
+    {
+      "id": 21,
+      "first_name": "Nancy",
+      "last_name": "Lee",
+      "email": "nancy.l@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-06-25 11:45:00"
+    },
+    {
+      "id": 22,
+      "first_name": "Mark",
+      "last_name": "Clark",
+      "email": "mark.c@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-07-01 14:20:00"
+    },
+    {
+      "id": 23,
+      "first_name": "Sandra",
+      "last_name": "Lewis",
+      "email": "sandra.l@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-07-05 09:15:00"
+    },
+    {
+      "id": 24,
+      "first_name": "Steven",
+      "last_name": "Walker",
+      "email": "steven.w@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-07-10 15:50:00"
+    },
+    {
+      "id": 25,
+      "first_name": "Betty",
+      "last_name": "Hall",
+      "email": "betty.h@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-07-15 10:30:00"
+    },
+    {
+      "id": 26,
+      "first_name": "Paul",
+      "last_name": "Allen",
+      "email": "paul.a@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-07-20 13:20:00"
+    },
+    {
+      "id": 27,
+      "first_name": "Dorothy",
+      "last_name": "Young",
+      "email": "dorothy.y@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-07-25 11:05:00"
+    },
+    {
+      "id": 28,
+      "first_name": "Andrew",
+      "last_name": "King",
+      "email": "andrew.k@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-08-01 14:40:00"
+    },
+    {
+      "id": 29,
+      "first_name": "Susan",
+      "last_name": "Wright",
+      "email": "susan.w@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-08-05 09:25:00"
+    },
+    {
+      "id": 30,
+      "first_name": "Kenneth",
+      "last_name": "Lopez",
+      "email": "kenneth.l@example.com",
+      "password": "$2y$12$n6qF0e4DqjAoQjOlRDlqdOP5nIuY4Ytq30svjgVBVWj3Hd6wb80DO",
+      "role": "member",
+      "created_at": "2025-08-10 16:15:00"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "name": "Sunday Service",
+      "title": "Sunday Service",
+      "description": "Weekly worship service - Join us for an inspiring message and worship",
+      "event_date": "2025-12-07",
+      "date": "2025-12-07",
+      "created_by": 2,
+      "created_at": "2025-11-30 00:00:00"
+    },
+    {
+      "id": 2,
+      "name": "Bible Study",
+      "title": "Bible Study",
+      "description": "Weekly Bible study session - Learn from the scriptures together",
+      "event_date": "2025-12-03",
+      "date": "2025-12-03",
+      "created_by": 3,
+      "created_at": "2025-11-30 00:00:00"
+    },
+    {
+      "id": 3,
+      "name": "Youth Fellowship",
+      "title": "Youth Fellowship",
+      "description": "Monthly gathering for young adults - Fellowship, games, and spiritual growth",
+      "event_date": "2025-12-14",
+      "date": "2025-12-14",
+      "created_by": 2,
+      "created_at": "2025-11-28 00:00:00"
+    },
+    {
+      "id": 4,
+      "name": "Prayer Meeting",
+      "title": "Prayer Meeting",
+      "description": "Mid-week prayer gathering - Let us pray together for our community",
+      "event_date": "2025-12-10",
+      "date": "2025-12-10",
+      "created_by": 3,
+      "created_at": "2025-11-27 00:00:00"
+    },
+    {
+      "id": 5,
+      "name": "Christmas Celebration",
+      "title": "Christmas Celebration",
+      "description": "Annual Christmas celebration with music, carols, and fellowship",
+      "event_date": "2025-12-25",
+      "date": "2025-12-25",
+      "created_by": 1,
+      "created_at": "2025-11-25 00:00:00"
+    },
+    {
+      "id": 6,
+      "name": "Ladies Ministry",
+      "title": "Ladies Ministry",
+      "description": "Monthly meeting for ladies - Inspiration, fellowship, and service",
+      "event_date": "2025-12-20",
+      "date": "2025-12-20",
+      "created_by": 2,
+      "created_at": "2025-11-24 00:00:00"
+    },
+    {
+      "id": 7,
+      "name": "Men's Breakfast",
+      "title": "Men's Breakfast",
+      "description": "Monthly men's gathering - Fellowship and spiritual encouragement",
+      "event_date": "2025-12-06",
+      "date": "2025-12-06",
+      "created_by": 3,
+      "created_at": "2025-11-23 00:00:00"
+    },
+    {
+      "id": 8,
+      "name": "Sunday School",
+      "title": "Sunday School",
+      "description": "Educational program for all ages - Biblical teachings and activities",
+      "event_date": "2025-12-07",
+      "date": "2025-12-07",
+      "created_by": 2,
+      "created_at": "2025-11-22 00:00:00"
+    }
+  ],
+  "sermons": [
+    {
+      "id": 1,
+      "pastor_id": 2,
+      "title": "Faith in Action",
+      "message": "Today we explore how faith manifests through our actions and how we can strengthen our spiritual journey through daily practice of our beliefs.",
+      "date": "2025-11-30 00:00:00"
+    },
+    {
+      "id": 2,
+      "pastor_id": 3,
+      "title": "Love Your Neighbor",
+      "message": "A powerful message about the importance of compassion and helping those around us in their time of need.",
+      "date": "2025-11-23 00:00:00"
+    },
+    {
+      "id": 3,
+      "pastor_id": 2,
+      "title": "Grace and Mercy",
+      "message": "Understanding the boundless grace and mercy of God and how we can extend the same to others in our lives.",
+      "date": "2025-11-16 00:00:00"
+    },
+    {
+      "id": 4,
+      "pastor_id": 3,
+      "title": "Finding Peace in Chaos",
+      "message": "How to find inner peace and spiritual stability during difficult times through prayer and faith.",
+      "date": "2025-11-09 00:00:00"
+    },
+    {
+      "id": 5,
+      "pastor_id": 2,
+      "title": "The Power of Prayer",
+      "message": "Discovering the transformative power of prayer in our daily lives and its impact on our relationship with God.",
+      "date": "2025-11-02 00:00:00"
+    },
+    {
+      "id": 6,
+      "pastor_id": 3,
+      "title": "Unity in the Body of Christ",
+      "message": "Understanding how we are all part of one body and the importance of working together for God's kingdom.",
+      "date": "2025-10-26 00:00:00"
+    }
+  ],
+  "offerings": [
+    {
+      "id": 1,
+      "member_id": 4,
+      "first_name": "John",
+      "last_name": "Doe",
+      "amount": 100.00,
+      "date": "2025-11-30 10:30:00"
+    },
+    {
+      "id": 2,
+      "member_id": 5,
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "amount": 50.00,
+      "date": "2025-11-30 11:00:00"
+    },
+    {
+      "id": 3,
+      "member_id": 6,
+      "first_name": "Robert",
+      "last_name": "Johnson",
+      "amount": 75.00,
+      "date": "2025-11-29 10:15:00"
+    },
+    {
+      "id": 4,
+      "member_id": 7,
+      "first_name": "Sarah",
+      "last_name": "Williams",
+      "amount": 125.00,
+      "date": "2025-11-29 14:45:00"
+    },
+    {
+      "id": 5,
+      "member_id": 8,
+      "first_name": "David",
+      "last_name": "Brown",
+      "amount": 200.00,
+      "date": "2025-11-28 09:20:00"
+    },
+    {
+      "id": 6,
+      "member_id": 9,
+      "first_name": "Emily",
+      "last_name": "Davis",
+      "amount": 80.00,
+      "date": "2025-11-28 13:30:00"
+    },
+    {
+      "id": 7,
+      "member_id": 10,
+      "first_name": "Christopher",
+      "last_name": "Martinez",
+      "amount": 150.00,
+      "date": "2025-11-27 10:45:00"
+    },
+    {
+      "id": 8,
+      "member_id": 11,
+      "first_name": "Amanda",
+      "last_name": "Taylor",
+      "amount": 90.00,
+      "date": "2025-11-27 15:10:00"
+    },
+    {
+      "id": 9,
+      "member_id": 12,
+      "first_name": "James",
+      "last_name": "Anderson",
+      "amount": 110.00,
+      "date": "2025-11-26 11:00:00"
+    },
+    {
+      "id": 10,
+      "member_id": 13,
+      "first_name": "Michelle",
+      "last_name": "Thomas",
+      "amount": 75.00,
+      "date": "2025-11-26 14:20:00"
+    },
+    {
+      "id": 11,
+      "member_id": 14,
+      "first_name": "Daniel",
+      "last_name": "Jackson",
+      "amount": 200.00,
+      "date": "2025-11-25 10:30:00"
+    },
+    {
+      "id": 12,
+      "member_id": 15,
+      "first_name": "Jennifer",
+      "last_name": "White",
+      "amount": 60.00,
+      "date": "2025-11-25 12:15:00"
+    },
+    {
+      "id": 13,
+      "member_id": 16,
+      "first_name": "Matthew",
+      "last_name": "Harris",
+      "amount": 130.00,
+      "date": "2025-11-24 10:00:00"
+    },
+    {
+      "id": 14,
+      "member_id": 17,
+      "first_name": "Lisa",
+      "last_name": "Martin",
+      "amount": 85.00,
+      "date": "2025-11-24 14:40:00"
+    },
+    {
+      "id": 15,
+      "member_id": 18,
+      "first_name": "William",
+      "last_name": "Thompson",
+      "amount": 95.00,
+      "date": "2025-11-23 11:25:00"
+    },
+    {
+      "id": 16,
+      "member_id": 19,
+      "first_name": "Karen",
+      "last_name": "Garcia",
+      "amount": 70.00,
+      "date": "2025-11-23 13:50:00"
+    },
+    {
+      "id": 17,
+      "member_id": 20,
+      "first_name": "Joseph",
+      "last_name": "Rodriguez",
+      "amount": 105.00,
+      "date": "2025-11-22 10:35:00"
+    },
+    {
+      "id": 18,
+      "member_id": 21,
+      "first_name": "Nancy",
+      "last_name": "Lee",
+      "amount": 55.00,
+      "date": "2025-11-22 15:05:00"
+    },
+    {
+      "id": 19,
+      "member_id": 22,
+      "first_name": "Mark",
+      "last_name": "Clark",
+      "amount": 140.00,
+      "date": "2025-11-21 10:20:00"
+    },
+    {
+      "id": 20,
+      "member_id": 23,
+      "first_name": "Sandra",
+      "last_name": "Lewis",
+      "amount": 100.00,
+      "date": "2025-11-21 12:45:00"
+    }
+  ]
+}

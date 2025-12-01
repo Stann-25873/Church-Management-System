@@ -1,0 +1,23 @@
+{
+    "name": "churchms/system",
+    "description": "A complete Church Management System built with PHP and PostgreSQL",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0",
+        "vlucas/phpdotenv": "^5.4",
+        "phpmailer/phpmailer": "^6.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/",
+            "Config\\": "config/",
+            "Controllers\\": "controllers/",
+            "Models\\": "models/",
+            "Services\\": "services/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
